@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mag.Data", "Mag.Data\Mag.Data.csproj", "{4A5BF008-EE64-4CEC-9A87-E8F3F32A6FB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mag.GraphQL.Model", "Mag.GraphQL.Model\Mag.GraphQL.Model.csproj", "{3E72EF8D-6398-432B-8C7B-76C366106F1A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mag.GraphQL.Server", "Mag.GraphQL.Server\Mag.GraphQL.Server.csproj", "{A368B2F2-E927-4C13-9F89-7BCBBF9D8DB8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mag.GraphQL.Web", "Mag.GraphQL.Web\Mag.GraphQL.Web.csproj", "{45667A59-3AF2-45DD-8AA8-AAFCD9B601F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mag.Import", "Mag.Import\Mag.Import.csproj", "{FB0D75BE-FA55-4EE1-98A0-42557F310DFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{918FECFD-9DE9-471A-BE3E-70F6B1322820}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shared", "_Shared", "{45567525-830F-4549-B709-7052C744BBE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Import", "Import", "{8B6DBE50-B911-4D54-8BCC-1D1DCDA357E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A5BF008-EE64-4CEC-9A87-E8F3F32A6FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5BF008-EE64-4CEC-9A87-E8F3F32A6FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5BF008-EE64-4CEC-9A87-E8F3F32A6FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5BF008-EE64-4CEC-9A87-E8F3F32A6FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E72EF8D-6398-432B-8C7B-76C366106F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E72EF8D-6398-432B-8C7B-76C366106F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E72EF8D-6398-432B-8C7B-76C366106F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E72EF8D-6398-432B-8C7B-76C366106F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A368B2F2-E927-4C13-9F89-7BCBBF9D8DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A368B2F2-E927-4C13-9F89-7BCBBF9D8DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A368B2F2-E927-4C13-9F89-7BCBBF9D8DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A368B2F2-E927-4C13-9F89-7BCBBF9D8DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45667A59-3AF2-45DD-8AA8-AAFCD9B601F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45667A59-3AF2-45DD-8AA8-AAFCD9B601F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45667A59-3AF2-45DD-8AA8-AAFCD9B601F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45667A59-3AF2-45DD-8AA8-AAFCD9B601F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0D75BE-FA55-4EE1-98A0-42557F310DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0D75BE-FA55-4EE1-98A0-42557F310DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0D75BE-FA55-4EE1-98A0-42557F310DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0D75BE-FA55-4EE1-98A0-42557F310DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A5BF008-EE64-4CEC-9A87-E8F3F32A6FB1} = {918FECFD-9DE9-471A-BE3E-70F6B1322820}
+		{3E72EF8D-6398-432B-8C7B-76C366106F1A} = {45567525-830F-4549-B709-7052C744BBE3}
+		{A368B2F2-E927-4C13-9F89-7BCBBF9D8DB8} = {918FECFD-9DE9-471A-BE3E-70F6B1322820}
+		{45667A59-3AF2-45DD-8AA8-AAFCD9B601F1} = {918FECFD-9DE9-471A-BE3E-70F6B1322820}
+		{FB0D75BE-FA55-4EE1-98A0-42557F310DFB} = {8B6DBE50-B911-4D54-8BCC-1D1DCDA357E3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B968455-771C-433A-A44D-F322B13F3752}
+	EndGlobalSection
+EndGlobal
