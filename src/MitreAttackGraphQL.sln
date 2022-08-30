@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{918FEC
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Shared", "_Shared", "{45567525-830F-4549-B709-7052C744BBE3}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Import", "Import", "{8B6DBE50-B911-4D54-8BCC-1D1DCDA357E3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImportData", "ImportData", "{8B6DBE50-B911-4D54-8BCC-1D1DCDA357E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

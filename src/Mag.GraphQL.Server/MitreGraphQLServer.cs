@@ -5,7 +5,7 @@ namespace Mag.GraphQL.Server {
 
   public class MitreGraphQLServer : GraphQLServer {
     public MitreGraphQLServer(MitreDataEntityApp app, GraphQLServerSettings settings) : base(app, settings) {
-      var mod = new MitreMappedModule();
+      var mod = new MitreServerModule();
       base.RegisterModules(mod);
     }
   }

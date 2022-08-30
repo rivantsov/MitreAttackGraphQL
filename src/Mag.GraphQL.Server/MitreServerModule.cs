@@ -3,10 +3,10 @@ using Mag.GraphQL.Model;
 
 namespace Mag.GraphQL.Server {
 
-  /// <summary>Shared Mitre module. Contains resolver registrations and entity mappings. </summary>
-  public class MitreMappedModule : MitreModule {
+  /// <summary>Server-side Mitre module. Contains resolver registrations and entity mappings. </summary>
+  public class MitreServerModule : MitreModule {
 
-    public MitreMappedModule() : base() {
+    public MitreServerModule() : base() {
 
       this.ResolverClasses.Add(typeof(MitreResolvers));
       // mappings
